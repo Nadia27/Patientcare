@@ -16,4 +16,8 @@ Patientcare can be used to manage patients at doctor's office or hospital. The a
 
 Nadia Abby 
 
+## Screenshots 
+
+![image](https://user-images.githubusercontent.com/27736190/42142800-55fc006c-7d7f-11e8-9daf-04a14e2aecb3.png)
+
 
