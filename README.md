@@ -1,51 +1,31 @@
-# CakePHP Application Skeleton
+# PatientCare Application
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
+My first PHP application:exclamation::exclamation:
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
+Patientcare can be used to manage patients at doctor's office or hospital. The application features patient, doctor, appointment, and invoice management.  
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+## Built With
 
-## Installation
++ This site was built using [CakePHP](https://cakephp.org/)
++ PHP
++ CakePHP
++ HTML
++ CSS 
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+## Author 
 
-If Composer is installed globally, run
+Nadia Abby 
 
-```bash
-composer create-project --prefer-dist cakephp/app
-```
+## Screenshots 
 
-In case you want to use a custom app dir name (e.g. `/myapp/`):
+![image](https://user-images.githubusercontent.com/27736190/42142800-55fc006c-7d7f-11e8-9daf-04a14e2aecb3.png)
 
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
+![image](https://user-images.githubusercontent.com/27736190/42142867-f08e709c-7d7f-11e8-8f7b-499285e71e52.png)
 
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
+![image](https://user-images.githubusercontent.com/27736190/42142877-fadadfd6-7d7f-11e8-8aaf-7de664c3e667.png)
 
-```bash
-bin/cake server -p 8765
-```
+![image](https://user-images.githubusercontent.com/27736190/42142894-09066116-7d80-11e8-86b1-f3eac137b984.png)
 
-Then visit `http://localhost:8765` to see the welcome page.
+![image](https://user-images.githubusercontent.com/27736190/42142911-26407686-7d80-11e8-8c18-1b0b1a60f4bf.png)
 
-## Update
 
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
-## Layout
-
-The app skeleton uses a subset of [Foundation](http://foundation.zurb.com/) (v5) CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
